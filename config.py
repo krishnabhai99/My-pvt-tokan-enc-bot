@@ -15,13 +15,13 @@ class Config(object):
     BOT_USERNAME = environ.get("BOT_USERNAME", "")  # Bot username without @
     VERIFY = environ.get("VERIFY", "True").capitalize()  # Ensure correct capitalization
     API_ID = int(environ.get("API_ID", "14050586"))  # Ensure it's an integer
-    API_HASH = environ.get("API_HASH", "")  # Required, should be kept secret
+    API_HASH = environ.get("API_HASH", "42a60d9c657b106370c79bb0a8ac560c")  # Required, should be kept secret
     BOT_TOKEN = environ.get("BOT_TOKEN", "")  # Required, should be kept secret
     FORCE_SUB = environ.get("FORCE_SUB", "Animes_India_bot")  # Required, should be a string
     AUTH_CHANNEL = int(FORCE_SUB) if FORCE_SUB.isdigit() else None  # Convert only if numeric
 
     # Database config
-    DB_URL = environ.get("DB_URL", "")  # MongoDB connection string
+    DB_URL = environ.get("DB_URL", "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority")  # MongoDB connection string
     DB_NAME = environ.get("DB_NAME", "KRISHNAEncoderBot")
 
     # Other Configs
