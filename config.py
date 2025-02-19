@@ -8,7 +8,7 @@ class Config(object):
     from os import environ
 
     API = environ.get("API", "d3b719a450497b8ccf8a1f2d0b1e38ecad78e3c5") # shortlink api
-    URL = environ.get("URL", "") # shortlink domain without https://
+    URL = environ.get("URL", "anylinks.in") # shortlink domain without https://
     VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "") # how to open link 
     BOT_USERNAME = environ.get("BOT_USERNAME", "") # bot username without @
     VERIFY = environ.get("VERIFY", "True") # set True Or False and make sure spelling is correct and first letter capital.
