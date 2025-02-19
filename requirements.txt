@@ -1,0 +1,13 @@
+pyrogram
+TgCrypto
+python-dotenv
+hachoir
+ffmpeg-python
+aiohttp
+motor
+pyromod
+psutil
+Pillow
+humanize
+shortzy
+pytz
