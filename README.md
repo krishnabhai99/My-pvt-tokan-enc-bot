@@ -18,12 +18,13 @@
  - Force subscribe available.
  - Supports ulimited renaming at a time.
  - Supports group encoding (add bot to group and give all admin permission except remain anonymous)
+ - 😎 short link 🖇️ options added 
 
 ## Deploy On
 
 `Heroku`
 
-[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MysteryDemon/TGVid-Comp/)
+[![Deploy on Heroku]
 
 
 ## Commands
@@ -65,6 +66,6 @@ variables for indirectly deployment.
 
 # Support Us By Joining Our Channels
 
-`Updates Channel` - [Rokubotz](https://t.me/Rokubotz)
+`Updates Channel` - [Animes_India_bot](https://t.me/Animes_India_bot)
 
-`Support Group` - [Team Roku](https://t.me/Team_Roku)
+`Support Group` - [Team Animes bot](https://t.me/Animes_India_bots_support_group)
